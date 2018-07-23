@@ -67,4 +67,5 @@ class Student
 
   def self.students_below_12th_grade
     self.all.select{|student| student.grade.to_i < 12}
+  end 
 end
