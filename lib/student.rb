@@ -63,8 +63,10 @@ class Student
 
   def self.count_all_students_in_grade_9
     binding.pry
-    self.all.map do |student|
-      student.grade == 9
+    self.all.select do |student|
+      if student.grade == 9
+
+
 
     end
   end
