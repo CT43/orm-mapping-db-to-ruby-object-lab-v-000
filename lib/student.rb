@@ -71,6 +71,6 @@ class Student
 
   def self.first_X_students_in_grade_10(x)
     grade_10_students = self.all.select{|student| student.grade == '10'}
-    grade_10_students.slice(0,3)
+    grade_10_students.slice(0,2)
   end
 end
