@@ -64,9 +64,5 @@ class Student
   def self.count_all_students_in_grade_9
     binding.pry
     self.all.select{|student| student.grade == 9}
-
-
-
-    end
   end
 end
